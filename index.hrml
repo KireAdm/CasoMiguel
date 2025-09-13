@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Caso Menino Miguel — Resumo e Fontes</title>
+  <meta name="description" content="Página informativa sobre os principais casos conhecidos como 'Caso Miguel' no Brasil, com resumo, contexto e fontes."/>
+  <style>
+    :root{
+      --bg:#f6f7fb;
+      --card:#ffffff;
+      --accent:#1f6feb;
+      --muted:#6b7280;
+      --danger:#b91c1c;
+      --radius:12px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#fff);color:#0f172a;line-height:1.5}
+    .container{max-width:900px;margin:40px auto;padding:20px}
+    header{display:flex;gap:16px;align-items:center}
+    .logo{width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7cc0ff);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:22px}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{color:var(--muted);margin-top:6px}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:20px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}}
+
+    .card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    .small{font-size:0.9rem;color:var(--muted)}
+
+    h2{margin-top:0}
+    .timeline{margin:8px 0;padding-left:12px;border-left:3px solid #e6eefc}
+    .timeline p{margin:8px 0}
+
+    .notice{background:#fff4f4;border:1px solid rgba(185,28,28,0.08);padding:10px;border-radius:8px;color:var(--danger);font-weight:600}
+
+    footer{margin-top:22px;text-align:center;color:var(--muted);font-size:0.9rem}
+    a{color:var(--accent);text-decoration:none}
+    .sources ul{padding-left:18px}
+    .sources li{margin:8px 0}
+
+    .meta{display:flex;gap:10px;flex-wrap:wrap}
+    .tag{background:#eef6ff;color:#094fa8;padding:6px 10px;border-radius:999px;font-weight:600;font-size:0.85rem}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">M</div>
+      <div>
+        <h1>Caso Menino Miguel — Resumo</h1>
+        <p class="lead">Esta página apresenta um resumo informativo sobre casos notórios no Brasil referidos como "Caso Miguel" e fornece fontes públicas para leitura adicional. O conteúdo é factual e evita imagens sensacionalistas.</p>
+        <div class="meta" style="margin-top:8px">
+          <span class="tag">Fatos</span>
+          <span class="tag">Contexto social</span>
+          <span class="tag">Fontes</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <h2>O que é este site?</h2>
+          <p class="small">Breve panorama para quem quer entender, de forma resumida e respeitosa, os acontecimentos que ganharam grande repercussão pública com o nome "Miguel".</p>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <h2>Resumo dos casos mais divulgados</h2>
+
+          <article style="margin-top:10px">
+            <h3 style="margin-bottom:6px">Caso Miguel — Recife (2020)</h3>
+            <p class="small">Em 2020 houve ampla repercussão sobre a morte de Miguel, uma criança que morreu ao cair do nono andar de um prédio no Recife. O episódio suscitou debates sobre condições de trabalho doméstico, racismo estrutural e contas públicas. Investigações e inquéritos foram conduzidos pelas autoridades competentes.</p>
+            <div class="timeline">
+              <p><strong>Fatos:</strong> a criança estava sob cuidado de uma pessoa empregadora; houve investigação sobre a dinâmica do elevador e responsabilidades.</p>
+            </div>
+          </article>
+
+          <article style="margin-top:12px">
+            <h3 style="margin-bottom:6px">Caso Miguel — Rio Grande do Sul (2021)</h3>
+            <p class="small">Outro caso de repercussão nacional ocorreu no Rio Grande do Sul, envolvendo maus-tratos e homicídio de uma criança chamada Miguel. Houve prisões e processos envolvendo violência, ocultação de cadáver e outros crimes, com ampla cobertura da mídia.</p>
+            <div class="timeline">
+              <p><strong>Fatos:</strong> investigações apontaram agressões e responsabilização de adultos próximos à vítima; processos judiciais seguiram até condenações em instâncias locais.</p>
+            </div>
+          </article>
+
+          <p style="margin-top:12px" class="small">Obs.: Esta página não traz imagens sensacionalistas ou conteúdo que explore a dor das famílias. O objetivo é informar e apontar fontes confiáveis para leitura e entendimento.</p>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <h2>Contexto e reflexões</h2>
+          <p class="small">Casos como estes frequentemente geram debates sobre: proteção à infância, trabalho doméstico, desigualdade social, violência contra crianças e o papel do sistema de justiça e da imprensa. Para compreender melhor, procure ler as fontes oficiais e reportagens de veículos reconhecidos.</p>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <h2>Como se informar com responsabilidade</h2>
+          <ul class="small">
+            <li>Prefira reportagens de veículos jornalísticos estabelecidos e documentos oficiais (polícia, ministério público, decisões judiciais).</li>
+            <li>Evite compartilhar imagens sensíveis ou conteúdo não verificado.</li>
+            <li>Considere o impacto sobre as famílias ao consumir material que trata de vítimas.</li>
+          </ul>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3>Dados rápidos</h3>
+          <p class="small"><strong>Idioma:</strong> Português (BR)<br><strong>Formato:</strong> Resumo público e educativo<br><strong>Atualização:</strong> consulte as fontes abaixo para versões mais detalhadas e recentes</p>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3>Atenção</h3>
+          <p class="small notice">Conteúdo sensível: o tema envolve violência contra crianças. Se você estiver pesquisando por motivos pessoais, considere buscar apoio emocional com alguém de confiança.</p>
+        </div>
+      </aside>
+    </div>
+
+    <section class="card sources" style="margin-top:18px">
+      <h2>Fontes e leitura adicional</h2>
+      <p class="small">Abaixo estão links para reportagens e páginas públicas que trazem informações detalhadas sobre os casos citados. Clique para ler as matérias originais.</p>
+      <ul>
+        <li><a href="https://pt.wikipedia.org/wiki/Caso_Miguel_(2020)" target="_blank" rel="noopener">Wikipedia — Caso Miguel (2020) — Recife</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Assassinato_de_Miguel_dos_Santos_Rodrigues" target="_blank" rel="noopener">Wikipedia — Assassinato de Miguel dos Santos Rodrigues (Rio Grande do Sul)</a></li>
+        <li><a href="https://agorarn.com.br/" target="_blank" rel="noopener">Agora RN — Cobertura sobre o caso Miguel (ex.: notícias locais)</a></li>
+        <li><a href="https://hcnoticias.com.br/seguranca/" target="_blank" rel="noopener">HC Notícias — Reportagens relacionadas (ex.: julgamentos e depoimentos)</a></li>
+        <li><a href="https://g1.globo.com/" target="_blank" rel="noopener">G1 — Busque por 'Menino Miguel' para matérias e desdobramentos</a></li>
+      </ul>
+
+      <p class="small" style="margin-top:10px">Se desejar, posso ajustar o texto (mais detalhado, mais jornalístico, ou um layout diferente) ou gerar uma versão pronta para ser publicada (arquivo .zip com HTML/CSS).</p>
+    </section>
+
+    <footer>
+      <p>Feito com cuidado — informação pública e respeito às vítimas.</p>
+    </footer>
+  </div>
+</body>
+</html>
