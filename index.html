@@ -18,7 +18,7 @@
     *{box-sizing:border-box}
     body{margin:0;background:linear-gradient(180deg,var(--bg),#fff);color:#0f172a;line-height:1.5}
     .container{max-width:900px;margin:40px auto;padding:20px}
-    header{display:flex;gap:16px;align-items:center}
+    header{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
     .logo{width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7cc0ff);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:22px}
     h1{margin:0;font-size:1.6rem}
     p.lead{color:var(--muted);margin-top:6px}
@@ -46,6 +46,12 @@
 </head>
 <body>
   <div class="container">
+
+    <section class="card" style="margin-bottom:20px">
+      <h2>Aviso</h2>
+      <p class="small notice">O conteúdo fala sobre casos de violência envolvendo crianças. Pode ser sensível para algumas pessoas. Se o assunto te fizer mal, procure conversar com alguém de confiança.</p>
+    </section>
+
     <header>
       <div class="logo">M</div>
       <div>
@@ -108,11 +114,6 @@
         <div class="card">
           <h3>Informações rápidas</h3>
           <p class="small"><strong>Idioma:</strong> Português<br><strong>Formato:</strong> Resumo simples<br><strong>Atualização:</strong> veja as fontes abaixo para detalhes mais recentes</p>
-        </div>
-
-        <div class="card" style="margin-top:16px">
-          <h3>Aviso</h3>
-          <p class="small notice">O tema é sensível, pois fala de violência contra crianças. Se o assunto te faz mal, procure conversar com alguém de confiança.</p>
         </div>
       </aside>
     </div>
